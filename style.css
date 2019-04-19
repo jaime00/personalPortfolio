@@ -17,6 +17,7 @@ header {
 .navbar-brand {
     font-size: 32px;
 }
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -32,3 +33,50 @@ header {
 }
 
 
+li a.nav-link:hover {
+    text-shadow: 1.2px 1px whitesmoke;
+}
+
+.icon {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 34px;
+}
+
+a.icon:hover,
+a:hover {
+    text-shadow: .5px 1px whitesmoke;
+    color: #ffffff;
+}
+
+.front-1 {
+    padding-top: 110px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tittle-2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.tittle-1 {
+    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 86px;
+}
+
+.aboutMe .part-1,
+.aboutMe .part-2 {
+    width: auto;
+}
+
+.curriculumVitae button {
+    /* border: .5px solid white; */
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    font-size: 15px;
+}
