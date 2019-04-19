@@ -80,3 +80,27 @@ a:hover {
     transition: all 0.5s;
     font-size: 15px;
 }
+
+.aboutMe {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+}
+
+.progress {
+    padding-right: 0px;
+    padding-left: 0px;
+    height: .5rem;
+}
+
+.progress-bar {
+    background-color: black;
+}
+
+.col-6 {
+    max-width: none;
+}
+
+.aboutMe p {
+    color: gray;
+}
