@@ -10,7 +10,7 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -38,19 +38,19 @@ li a.nav-link:hover {
 }
 
 .icon {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 a.icon:hover,
 a:hover {
     text-shadow: .5px 1px whitesmoke;
-    color: #ffffff;
+    color: #fff;
 }
 
 .front-1 {
-    padding-top: 110px;
+    padding-top: 90px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,10 +81,10 @@ a:hover {
     font-size: 15px;
 }
 
-.aboutMe {
-    height: 100vh;
+.aboutMe,
+.ourWork,
+.education{
     font-family: 'Nunito', sans-serif;
-    background-color: #ffffff;
 }
 
 .progress {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .progress-bar {
-    background-color: black;
+    background-color: #000;
 }
 
 .col-6 {
@@ -104,3 +104,42 @@ a:hover {
 .aboutMe p {
     color: gray;
 }
+
+.ourWork .col {
+    border: 1px dotted #e7e7e7;
+    border-radius: 10px;
+}
+
+.iconServices {
+    font-size: 34px;
+}
+
+.line-grey::after,
+.line-grey::before {
+    display: inline-block;
+    margin-top: -7px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 30px;
+    height: 1px;
+}
+
+
+.education h2,
+.edu-item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.edu-item span{
+    font-weight: bold;
+}
+
+.edu-box {
+    border: 1px dotted #e7e7e7;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
