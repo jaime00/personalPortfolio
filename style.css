@@ -152,10 +152,20 @@ a:hover {
     }
 }
 
+@media (max-width: 380px) {
+    .sanLuis {
+        padding-bottom: 50px;
+    }
+
+    .cuc {
+        padding-bottom: 50px;
+    }
+}
+
 .item-form {
     padding: 0px;
 }
 
-footer{
+footer {
     background-color: #343A40;
 }
