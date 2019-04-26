@@ -25,6 +25,7 @@ header {
 
 .row {
     margin-right: 0px;
+    margin-left: 0px;
 }
 
 .navbar {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .front-1 {
-    padding-top: 90px;
+    padding-top: 80px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -83,7 +84,8 @@ a:hover {
 
 .aboutMe,
 .ourWork,
-.education{
+.education,
+.contact {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -127,12 +129,14 @@ a:hover {
 
 
 .education h2,
-.edu-item h4{
+.edu-item h4,
+.contact h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-.edu-item span{
+.edu-item span,
+.contact span {
     font-weight: bold;
 }
 
@@ -142,4 +146,16 @@ a:hover {
     padding: 30px;
 }
 
+@media (max-width: 777px) {
+    header {
+        min-height: 900px;
+    }
+}
 
+.item-form {
+    padding: 0px;
+}
+
+footer{
+    background-color: #343A40;
+}
