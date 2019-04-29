@@ -162,6 +162,29 @@ a:hover {
     }
 }
 
+@media (max-width: 380px) {
+    form .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .fix {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact .contactMe .row {
+        padding-left: 0px;
+    }
+}
+
+.textarea {
+    height: 150px;
+    padding-bottom: 110px;
+}
+
 .item-form {
     padding: 0px;
 }
