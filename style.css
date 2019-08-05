@@ -1,5 +1,9 @@
+::selection {
+    background-color: black;
+    color: whitesmoke;
+}
 header {
-    background-image: url('images/background.jpg');
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
@@ -15,8 +19,10 @@ header {
 }
 
 .navbar-brand {
-    font-size: 32px;
+    font-size: 37px;
+    font-family: "Dancing Script", cursive;
 }
+
 
 .container {
     margin-right: auto;
@@ -29,13 +35,14 @@ header {
 }
 
 .navbar {
-    font-family: 'Nunito', sans-serif;
     background-color: transparent;
 }
-
-
+li a.nav-link {
+    font-size: 18px
+}
 li a.nav-link:hover {
-    text-shadow: 1.2px 1px whitesmoke;
+    text-shadow: 1.0px .5px whitesmoke;
+    text-decoration: underline
 }
 
 .icon {
@@ -46,13 +53,14 @@ li a.nav-link:hover {
 
 a.icon:hover,
 a:hover {
-    text-shadow: .5px 1px whitesmoke;
+    text-shadow: 0.5px 1px whitesmoke;
     color: #fff;
 }
 
 .front-1 {
     padding-top: 80px;
-    font-family: 'Montserrat', sans-serif;
+
+    font-family: "Montserrat", cursive;
 }
 
 .tittle-2 {
@@ -62,7 +70,7 @@ a:hover {
 
 .tittle-1 {
     font-size: 72px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: inherit;
     line-height: 86px;
 }
 
@@ -86,13 +94,13 @@ a:hover {
 .ourWork,
 .education,
 .contact {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .progress {
     padding-right: 0px;
     padding-left: 0px;
-    height: .5rem;
+    height: 0.5rem;
 }
 
 .progress-bar {
@@ -128,15 +136,12 @@ a:hover {
 }
 
 
-.education h2,
-.edu-item h4,
-.contact h2 {
-    font-family: 'Montserrat', sans-serif;
+.edu-item h4{
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
 
-.edu-item span,
-.contact span {
+.edu-item span{
     font-weight: bold;
 }
 
@@ -178,6 +183,9 @@ a:hover {
     .contact .contactMe .row {
         padding-left: 0px;
     }
+    h4 {
+        font-size: 1.2rem;
+    }
 }
 
 .textarea {
@@ -190,5 +198,5 @@ a:hover {
 }
 
 footer {
-    background-color: #343A40;
+    background-color: #343a40;
 }
