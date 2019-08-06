@@ -74,6 +74,10 @@ a:hover {
     line-height: 86px;
 }
 
+.more{
+    border-radius: 50%;
+}
+
 .aboutMe .part-1,
 .aboutMe .part-2 {
     width: auto;
@@ -200,3 +204,4 @@ a:hover {
 footer {
     background-color: #343a40;
 }
+

@@ -10,21 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CDN Font size Google fonts -->
+    <link rel="stylesheet" href="style.css">
     <!-- CDN Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon_io/favicon.ico">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- My styles CSS -->
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Nunito&display=swap" rel="stylesheet">
-
 
 </head>
 
 <body>
+    <!-- start header -->
     <header>
         <!-- start menu navegation -->
         <div class="container">
@@ -42,8 +40,8 @@
                     </ul>
                 </div>
             </nav>
-            <!-- end menu navegation -->
         </div>
+        <!-- end menu navegation -->
         <!-- start front-1 -->
         <div class="pb-5 front-1 text-center text-white">
             <div class="row">
@@ -77,9 +75,15 @@
                 href="https://drive.google.com/file/d/1Ce-EWDKJxtLT6pUWzM2lY-xYfr_Vwy-j/view?usp=sharing">Download
                 CV</a>
         </div>
+        <div class="pt-5 curriculumVitae text-center">
+            <a class="btn btn-outline-light more " href="#about">
+                <i class="fas fa-chevron-circle-down"></i>
+            </a>
+        </div>
         <!-- end curriculumVitae  -->
         <!-- end front-1 -->
     </header>
+    <!-- end header -->
 
     <!-- start aboutMe -->
     <div class="aboutMe text-center pt-2 pb-5 container" id="about">
@@ -196,15 +200,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="top float-right">
-                 <a href="#home" class="btn btn-outline-dark">
-                     <i class="fa fa-arrow-up">To the top</i>
-                 </a>
-             </div> -->
         </div>
     </div>
     <!-- end aboutMe  -->
 
+    <!-- start ourWork -->
     <div class="ourWork py-5 bg-light text-center" id="ourWork">
         <div class="container px-5">
             <h2 class="py-2">Our <b>Work</b></h2>
@@ -285,7 +285,9 @@
 
         </div>
     </div>
+    <!-- end ourWork -->
 
+    <!-- start education -->
     <div class="education py-5" id="education">
         <div class="container px-5 text-center">
             <h2 class="bg-black py-2"><b>Education</b></h2>
@@ -400,7 +402,9 @@
 
         </div>
     </div>
+    <!-- end education -->
 
+    <!-- start contact -->
     <div class="contact bg-light py-5" id="contact">
         <div class="container px-5 text-center">
             <h2 class="bg-black py-2"><b>Contact</b> Me</h2>
@@ -461,18 +465,30 @@
             </div>
         </div>
     </div>
+    <!-- end contact -->
 
+    <!-- start footer -->
     <footer>
         <div class="container">
             <div class="row pt-2">
-                <div class="col">
+                <div class="col-6">
                     <div class="float-left pt-2 my-2">
                         <p class="text-white">2019 © Design by Jaime.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="float-right pt-2">
+                        <a class="btn btn-outline-light more" href="#">
+                            <i class="fas fa-chevron-circle-up"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- end footer -->
+
+
 
 
     <!-- Scripts de bootstrap 4 -->
