@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 ::selection {
     background-color: black;
     color: whitesmoke;
@@ -23,7 +26,6 @@ header {
     font-family: "Dancing Script", cursive;
 }
 
-
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -38,11 +40,11 @@ header {
     background-color: transparent;
 }
 li a.nav-link {
-    font-size: 18px
+    font-size: 18px;
 }
 li a.nav-link:hover {
-    text-shadow: 1.0px .5px whitesmoke;
-    text-decoration: underline
+    text-shadow: 1px 0.5px whitesmoke;
+    text-decoration: underline;
 }
 
 .icon {
@@ -74,7 +76,7 @@ a:hover {
     line-height: 86px;
 }
 
-.more{
+.more {
     border-radius: 50%;
 }
 
@@ -139,13 +141,12 @@ a:hover {
     height: 1px;
 }
 
-
-.edu-item h4{
+.edu-item h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
 
-.edu-item span{
+.edu-item span {
     font-weight: bold;
 }
 
@@ -204,4 +205,3 @@ a:hover {
 footer {
     background-color: #343a40;
 }
-
