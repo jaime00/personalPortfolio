@@ -2,4 +2,5 @@
 Hi, welcome to my personal portfolio. enter
 [here](https://jaime00.github.io/personalPortfolio/ "My Website")
 
-![preview](https://lh4.googleusercontent.com/meY1KC0dO239xPH99GzHxj8EnfRt_f-cpwFoWMC0h3grhfJPI9vLxxy86H3-mdED9F453ZIrKk3siQ=w1920-h902-rw 'preview')
+![personalPortfolio](https://user-images.githubusercontent.com/20992836/68535141-8474eb80-030b-11ea-9b7a-b271959861d5.PNG)
+
